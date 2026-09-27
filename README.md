@@ -95,6 +95,12 @@ Use the file matching your game version for each requirement. No .esp is needed.
 
 When reporting a problem, include your game version, mod version, `IdleMarkerControl.log`, `f4se.log`, load order, and steps to reproduce.
 
+## AI usage disclosure
+
+AI tools are used during Idle Marker Control's development for **code, documentation, and artwork**, including automation, debugging, and implementation support. **The logo was AI-generated.**
+
+Design decisions, feature direction, review, testing, and release responsibility remain under the author's supervision.
+
 ## Credits
 
 - [Fallout 4 Script Extender (F4SE)](https://f4se.silverlock.org/) – Ian Patterson, Stephen Abel, and Brendan Borthwick
