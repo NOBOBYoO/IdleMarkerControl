@@ -39,8 +39,8 @@ It is non-intrusive:
 ## Features
 
 - **Holograms in workshop mode**: a pose figure where a pose mesh exists, otherwise a generic beacon with a facing arrow. **Green** = enabled, **red** = disabled.
-- **Toggle**: aim at a hologram and press **Interact** (**E** by default).
-- **Hotkey**: tap **H** in workshop mode to hide or show all holograms.
+- **Toggle**: aim at a hologram and press **Interact** (**E** by default). **E** is left to the game while another menu that takes input is open (message boxes, scrap confirmation, Pip-Boy, terminals, crafting); HUD overlays from other mods don't count.
+- **Hotkey**: tap **H** in workshop mode to hide or show all holograms. The shown / hidden state is remembered between sessions (can be turned off).
 - **Status label**: a small Enabled/Disabled label near the top right of the screen in workshop mode.
 - **Settings panel**: hold **H** for 1 second (PrismaUI F4, optional but recommended).
 
@@ -59,6 +59,7 @@ Requires [PrismaUI F4](https://www.nexusmods.com/fallout4/mods/105454) (optional
 
 - Marker count for the current settlement, and a Show/Hide holograms button.
 - Hotkey rebinding and hold time.
+- Remember shown / hidden holograms between sessions.
 - Status label on/off, position and alignment.
 - Interface scale 75–200%, for large and 4K screens.
 - Reset to defaults.
@@ -90,7 +91,8 @@ Use the file matching your game version for each requirement. No .esp is needed.
 ## Support and troubleshooting
 
 - **No holograms:** check that the game was launched through F4SE, Address Library matches your game version, and holograms aren't hidden (tap **H**).
-- **Holding H does nothing:** PrismaUI F4 is missing or `bUsePrismaUI=0`.
+- **Holding H does nothing:** PrismaUI F4 is missing.
+- **E does nothing while another mod's menu is open:** add the menu name to `sExtraAllowedMenus` in `IdleMarkerControl.ini`. With `VerboseLogging=true`, the log names the menu that blocked **E**.
 - **Log:** `Documents\My Games\Fallout4\F4SE\IdleMarkerControl.log`
 
 When reporting a problem, include your game version, mod version, `IdleMarkerControl.log`, `f4se.log`, load order, and steps to reproduce.
