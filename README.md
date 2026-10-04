@@ -1,4 +1,7 @@
 <div align="center">
+  <a href="https://www.nexusmods.com/fallout4/mods/109458">
+    <img src="https://staticdelivery.nexusmods.com/mods/1151/images/109458/109458-1790446632-587720659.png" alt="Idle Marker Control" width="820">
+  </a>
 
   <h1>Idle Marker Control</h1>
 
@@ -8,6 +11,7 @@
   </p>
 
   <p>
+    <a href="https://www.nexusmods.com/fallout4/mods/109458"><img alt="Download on Nexus Mods" src="https://img.shields.io/badge/NEXUS_MODS-DOWNLOAD_IDLE_MARKER_CONTROL-E7A83A?style=for-the-badge&labelColor=030806&logo=nexusmods&logoColor=D8F5D5"></a>
     <a href="https://github.com/NOBOBYoO/IdleMarkerControl/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/NOBOBYoO/IdleMarkerControl?style=for-the-badge&label=LATEST_RELEASE&labelColor=0C2306&color=5EEF84"></a>
     <a href="https://github.com/NOBOBYoO/IdleMarkerControl/releases"><img alt="Release downloads" src="https://img.shields.io/github/downloads/NOBOBYoO/IdleMarkerControl/total?style=for-the-badge&label=DOWNLOADS&labelColor=0C2306&color=33B450"></a>
   </p>
@@ -78,7 +82,7 @@ Use the file matching your game version for each requirement. No .esp is needed.
 ## Installation
 
 1. Install F4SE and Address Library for your game version. PrismaUI F4 is optional but recommended.
-2. Download `IdleMarkerControl-<version>.zip` from [Releases](https://github.com/NOBOBYoO/IdleMarkerControl/releases/latest).
+2. Download Idle Marker Control from [Nexus Mods](https://www.nexusmods.com/fallout4/mods/109458) or `IdleMarkerControl-<version>.zip` from the [GitHub Releases page](https://github.com/NOBOBYoO/IdleMarkerControl/releases/latest).
 3. Install it with Mod Organizer 2 or Vortex, or copy its `Data` folder into the Fallout 4 folder.
 4. Launch the game through F4SE and enter workshop mode in a settlement.
 
@@ -96,6 +100,8 @@ Use the file matching your game version for each requirement. No .esp is needed.
 - **Log:** `Documents\My Games\Fallout4\F4SE\IdleMarkerControl.log`
 
 When reporting a problem, include your game version, mod version, `IdleMarkerControl.log`, `f4se.log`, load order, and steps to reproduce.
+
+Please report issues through the [Idle Marker Control Nexus Mods page](https://www.nexusmods.com/fallout4/mods/109458).
 
 ## AI usage disclosure
 
