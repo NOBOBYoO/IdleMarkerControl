@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.0.0] - 2026-10-26
+
+### ✨ Additions
+
+- Paint, sink, dish-washing, map lean/stand, refugee, couple, radio-listen, screwdriver and primping markers, plus the Nuka-World paint-ghoul and fence-cheer markers, now use pose holograms instead of the generic beacon.
+- Those markers now show clear prompt labels, even when their names are not available.
+
+### 🔄 Changes
+
+- Hologram colour (green enabled, red disabled) is now applied in-game per marker.
+- Separate disabled meshes are gone, so the download is about half the size.
+- Laser cutter markers now use the welding poses.
+- Hologram meshes are cleaned up to a single shape each.
+- PrismaUI views now wait until the runtime is ready, and the marker label no longer shows the cursor.
+
+### 🛠️ Fixes
+
+- Spouse wall-lean, prisoner floor-sit and radio floor-sit markers no longer show the wrong pose.
+- Kneel-sit, praying, mortar and noodle holograms no longer render fainter than the rest.
+
 ## [0.2.0] - 2026-10-04
 
 ### ✨ Additions
